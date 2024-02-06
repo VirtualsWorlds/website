@@ -1,5 +1,42 @@
 TON network contract address VWS - EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h													
-													
+🚀 MVP  🎁
+MVP community member management token
+VWS Payload Token VWS Game Chats with 17 types of tokens
+Level rewards with 17 types of tokens and 
+Fireworks rewards 17 types of tokens for communicating in our chat rooms
+Mining NFTs https://getgems.io/virtualsworlds
+https://dedust.io/swap/TON/VWS
+Chats mining $VWS tokens + 17 varieties of tokens https://t.me/MagicNFTcollections https://t.me/VirtualsWorlds https://t.me/MagicVipClub https://t.me/MagicVipPeople 
+Moderates chat, helps with giveaways, contests, and collaborations. Use our tier system to identify and reward the most active members of your community: reward them with cryptocurrency and release a whitelist (WL), give out rewards https://t.me/AirdropVWSbot.
+PooL Boost ++++++$ Rewards in different coins as well as scale in all our pools will be added regularly Everyone who created a VWS/TON pool Receives 3 types of rewards from VWS Cashback for VWS purchases. Cashback for VWS/TON liquidity as well as numerous bonuses in Scale +17 different coins and Get 17 kinds of tokens for communicating in our chat rooms 
+Bonuses in this bot https://t.me/AirdropAiNetwork_bot
+$VWS — Виртуальные миры
+Модерирует чат, помогает с раздачами, конкурсами и коллаборациями. Используйте нашу систему прокачки, чтобы выявить и вознаградить самых активных членов вашего сообщества: стимулируйте их с помощью криптовалюты и выпускайте белый список (WL), раздавайте награды.
+
+Adress   (https://dedust.io/swap/TON/VWS)MVP TON EQDAiXxX8J2CHo4un2mAYFuexI620Y33CWfLFZK-7LcR9Pps       💸 DeDust💸 TON
+
+Сайт: https://virtualsworlds.online.
+Дорожная карта и тономика: https://t.me/MagicNFTcollections (https://docs.google.com/presentation/d/190lpvVLYT2m5RevZmbH4bLfTckt60JUr/edit?usp=sharing&ouid=104194750742769278125&rtpof=true&sd=true)/194557 (https://github.com/MagicVipPeople)
+
+Дополнительная информация:
+Презентация
+GitHub
+
+Телеграмма (EN):
+https://t.me/MagicNFTcollections
+https://t.me/MagicNftClub 
+Телеграмма (RU):
+https://t.me/VirtualsWorlds 
+Телеграмма (другие языки):
+https://t.me/MagicVipClub 
+
+Bots :
+https://t.me/AirdropVWSbot
+https://t.me/DOGENANCE_bot
+https://t.me/AirdropAiNetwork_bot
+
+Страница DeDust для полу (https://t.me/DeDustListings)чения дополнительной информации:
+https://dedust.io/pools/TON/MVP													
 													
 1 000 000 MVP 💰		https://www.geckoterminal.com/ton/pools/EQCCa6jA_VzoQi76cAHmumoJfZbglVtY-DL-k8-f9h3vUOy2							Airdrop 20 000 000 VWS				
 1 000 000 NFT 🎁													
