@@ -1,0 +1,1343 @@
+<?php
+session_start();
+
+if ($_SESSION['user']) {
+    header('Location: profile.php');
+  
+}
+
+?>
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>AI Networks</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <!--Google Font link-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/slick/slick.css">
+        <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/iconfont.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+
+        <!-- xsslider slider css -->
+
+
+        <!--<link rel="stylesheet" href="assets/css/xsslider.css">-->
+
+
+
+
+        <!--For Plugins external css-->
+        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+
+
+
+
+
+        <div class="culmn">
+            <!--Home page style-->
+
+
+            <nav class="navbar navbar-default bootsnav navbar-fixed">
+                <div class="navbar-top bg-grey fix">
+                    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="navbar-callus text-left sm-text-center">
+                <ul class="list-inline">
+                    <li><a href="https://t.me/magicvipclub"><i class="fa fa-envelope-o"></i>subscribe to us on telegram: https://t.me/magicvipclub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 text-right d-flex align-items-center">
+            <div class="navbar-socail sm-text-center">
+                <ul class="list-inline">
+                    <li>
+                       <a href="#" class="btn-custom btn-primary m-top-20" style="border-radius: 60px; background-color: #0098ea; color: white; display: flex; align-items: center; justify-content: center; padding: 10px; width: fit-content; margin-left: auto; margin-right: auto;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px;">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1839 17.7069C13.6405 18.6507 13.3688 19.1226 13.0591 19.348C12.4278 19.8074 11.5723 19.8074 10.941 19.348C10.6312 19.1226 10.3595 18.6507 9.81613 17.7069L5.52066 10.2464C4.76864 8.94024 4.39263 8.28717 4.33762 7.75894C4.2255 6.68236 4.81894 5.65591 5.80788 5.21589C6.29309 5 7.04667 5 8.55383 5H15.4462C16.9534 5 17.7069 5 18.1922 5.21589C19.1811 5.65591 19.7745 6.68236 19.6624 7.75894C19.6074 8.28717 19.2314 8.94024 18.4794 10.2464L14.1839 17.7069ZM11.1 16.3412L6.56139 8.48002C6.31995 8.06185 6.19924 7.85276 6.18146 7.68365C6.14523 7.33896 6.33507 7.01015 6.65169 6.86919C6.80703 6.80002 7.04847 6.80002 7.53133 6.80002H7.53134L11.1 6.80002V16.3412ZM12.9 16.3412L17.4387 8.48002C17.6801 8.06185 17.8008 7.85276 17.8186 7.68365C17.8548 7.33896 17.665 7.01015 17.3484 6.86919C17.193 6.80002 16.9516 6.80002 16.4687 6.80002L12.9 6.80002V16.3412Z" fill="#FFFFFF"></path>
+        </svg>
+                            connect wallet
+                        </a>
+                    </li>
+                    <li style="color: green; margin-left: 10px;"><b>Buying Premium Telegram for vws, mvp, ton, bnb, usdt and rub will work soon</b></li> <!-- Added line -->
+                </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+
+
+                <div class="container">
+                    <div class="attr-nav">
+                        <ul>
+
+                        </ul>
+                    </div>
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+
+                            <a href="#"><img src="#" class="logo" alt=""></a>
+                            <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                        </a>
+
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- navbar menu -->
+
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="https://t.me/AirdropAiNetwork_bot">AiNetwork Bot</a></li>
+                            <li><a href="https://dedust.io/pools/EQCCa6jA_VzoQi76cAHmumoJfZbglVtY-DL-k8-f9h3vUOy2">DeDust</a></li>
+                            <li><a href="https://app.ston.fi/swap?chartVisible=false&ft=TON&fa=7&tt=EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h">STONfi</a></li>
+                            <li><a href="https://app.ston.fi/liquidity/init?ft=EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h&tt=EQDAiXxX8J2CHo4un2mAYFuexI620Y33CWfLFZK">STONfi</a></li>
+                            <li><a href="https://github.com/VirtualsWorlds">GitHub</a></li>
+                            <li><a href="https://github.com/MagicVipPeople">GitHub</a></li>
+                            <li><a href="https://t.me/AirdropVWSbot">Exchange Bot VWS</a></li>
+                            <li><a href="https://twitter.com/MagikNft">Twitter</a></li>
+                            <li><a href="#Rooms">Rooms</a></li>
+                            <li><a href="https://getgems.io/user/EQARROkNiK15pmaOZZoxtSra3v39Nd3XJT1DrLSrxVUH4Frn">GetGems</a></li>
+                            <li><a href="https://www.geckoterminal.com/ton/pools/EQCCa6jA_VzoQi76cAHmumoJfZbglVtY-DL-k8-f9h3vUOy2">GeckoTerminal</a></li>
+                            <li><a href="https://www.gate.io/en/nft/collection/12095/Virtual%20Worlds%20NFT">Gate</a></li>
+                            <li><a href="https://rarible.com/magicnftcollections">Rarible</a></li>
+                            <li><a href="https://opensea.io/MagicNFTcollections/collected">OpenSea</a></li>
+                            <li><a href="https://treasureland.market/detail?chain_id=56&contract=0xafc083b802e7c2ee5ee2fc93c4194cd60fa5b7f9&order_id=308059&token_id=1133937459445189503565646919180328544082536844488">TreasureLand</a></li>
+                            <script src="assets/js/jquery-3.4.1.min.js"></script>
+                            <script src="assets/js/main.js"></script>
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+
+            </nav>
+
+            <!--Home Sections-->
+
+            <section id="home" class="home bg-black fix">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_home text-center">
+                            <div class="col-md-12">
+                                <div class="hello_slid">
+                                    <div class="slid_item">
+                                        <div class="home_text ">
+                                            <h1 class="text-white">Welcome <strong>Magic Vip People</strong></h1>
+                                            <h2 class="text-white">Our products
+
+<li><b>TON\BNB Bridge</b> - A bridge between networks will allow users to quickly change their cryptocurrency between networks</li>
+<li><b>Domain Zone</b>- User will be able to register his domain in .vws. .ain .mvp network and use it as primary name</li>
+<li><b>SocialFi + GameFi</b>- We have combined the mechanics of these two areas and created a unique product that allows people in chat to receive cryptocurrency for activity in it</li>
+<li><b>VWS Game</b>- A game where the user can build their own settlement, will be able to earn from the sale of land and real estate in the VWS</li>
+<li><b>NFT collections</b>- Each NFT holder has the following privileges: Earnings from fees, voting, token mining</li>
+<li><b>Mining Token</b>- Every telegram user can add token mining functionality per message to their telegram chat using a bot</li> </h2>
+
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+                                        <div class="home_btns m-top-40">
+                                            <a href="https://www.gate.io/nft/collection/12095/Virtual%20Worlds%20NFT" class="btn btn-primary m-top-20">Buy Now NFT</a>
+                                        </div>
+
+                                    </div><!-- End off slid item -->
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Home Sections-->
+            
+        
+
+            <section id="shatl" class="business bg-grey roomy-70" >
+                <div class="container">
+                    <div class="row">
+                        <div class="main_business">
+                            <div class="col-md-6">
+                                <div class="business_slid">
+                                    <div class="slid_shap bg-grey"></div>
+                                    <div class="business_items text-center">
+                                        <div class="business_item">
+                                            <div class="business_img">
+                                                <img src="assets/images/about-img5.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="business_item sm-m-top-50">
+                                    <h2 class="text-uppercase"><strong>AIN Token</strong></h2>
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-right"></i> Contract Adress - 0xcc7C29540BE831BEA5577Dc6AA4610cAa11Dc9Da</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Token symbol - AIN</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Number of decimal places of the token - 18</li>
+                                    </ul>
+                                    <p class="m-top-20"> 
+                                   <br> For every 100,000 AI Network tokens purchased, receive 10,000 tokens to the same address and 1 special NFT on the BNB network </p>
+
+                                    <div class="business_btn">
+                                        <a href="https://coinmarketcap.com/dexscan/bsc/0x2b5732dc2000d4703575149d878e38a1854d6e96" class="btn btn-default m-top-20">Read More</a>
+                                        <a href="https://pancakeswap.finance/swap?outputCurrency=0xcc7c29540be831bea5577dc6aa4610caa11dc9da" class="btn btn-primary m-top-20">Buy Now</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->
+            <section id="" class="product">
+                <div class="container">
+                    <div class="main_product roomy-80">
+                        <div class="head_title text-center fix">
+                            <h2 class="text-uppercase">New Collection - Shuttles Magic</h2>
+
+                        </div>
+
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img51.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img51.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttle Magic - 001 </h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img52.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img52.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttle Magic - 002 </h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img53.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img53.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttle Magic - 003</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img54.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img54.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttle Magic - 004</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img55.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img55.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttle Magic - 005</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img56.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img56.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttle Magic - 006</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img57.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img57.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttle Magic - 007</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img58.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img58.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttle Magic - 008</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <section id="shatl" class="business bg-grey roomy-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_business">
+                            <div class="col-md-6">
+                                <div class="business_slid">
+                                    <div class="slid_shap bg-grey"></div>
+                                    <div class="business_items text-center">
+                                        <div class="business_item">
+                                            <div class="business_img">
+                                                <img src="assets/images/about-img5.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="business_item sm-m-top-50">
+                                    <h2 class="text-uppercase"><strong>VWS Token</strong></h2>
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-right"></i> Contract Adress - EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Exchange Bot - https://t.me/AirdropVWSbot </li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> All token holders will receive 10% VWS Token from the number of VWS tokens in your wallet. </li>
+                                    </ul>
+                                    <p class="m-top-20">
+                                    For every 100,000 VWS tokens purchased, receive 10,000 tokens to the same address and 1 special NFT on the GetGems</p>
+
+                                    <div class="business_btn">
+                                        <a href="https://tonscan.org/jetton/EQBfX9KO5yIFprHWPpJp3OsX-6cjLjEJF-h5uIQE3eLJY8_h" class="btn btn-default m-top-20">Read More</a>
+                                        <a href="https://t.me/AirdropVWSbot" class="btn btn-primary m-top-20">Buy Now</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->
+            <section id="" class="product">
+                <div class="container">
+                    <div class="main_product roomy-80">
+                        <div class="head_title text-center fix">
+                            <h2 class="text-uppercase">New Collection - Planets</h2>
+
+                        </div>
+
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img60.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img60.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Planet - 001 </h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img61.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img61.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Planet - 002 </h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img62.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img62.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Planet - 003</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img63.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img63.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Planet - 004</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img64.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img64.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Planet - 005</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img65.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img65.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Planet - 006</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img66.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img66.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Planet - 007</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img67.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img67.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Planet - 008</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+            <!--Business Section-->
+            <section id="features" class="business bg-grey roomy-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_business">
+                            <div class="col-md-6">
+                                <div class="business_slid">
+                                    <div class="slid_shap bg-grey"></div>
+                                    <div class="business_items text-center">
+                                        <div class="business_item">
+                                            <div class="business_img">
+                                                <img src="assets/images/about-img1.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="business_item sm-m-top-50">
+                                    <h2 class="text-uppercase"><strong>Earth</strong></h2>
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-right"></i> Clean lot</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Good location</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Rare</li>
+                                    </ul>
+                                    <p class="m-top-20">New Collection - Earths</p>
+
+                                    <div class="business_btn">
+                                        <a href="https://www.binance.com/en/nft/my-nfts/magicvipclub-10d62809b0425b4f5ad90" class="btn btn-default m-top-20">Read More</a>
+                                        <a href="https://www.gate.io/nft/collection/12095/Virtual%20Worlds%20NFT" class="btn btn-primary m-top-20">Buy Now</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->
+            <section id="" class="product">
+                <div class="container">
+                    <div class="main_product roomy-80">
+                        <div class="head_title text-center fix">
+                            <h2 class="text-uppercase">New Collection - Earths</h2>
+
+                        </div>
+
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img18.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img18.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Earth - 001</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img19.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img19.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Earth - 002</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img20.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img20.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Earth - 003</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img21.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img21.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Earth - 004</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img22.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img22.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Earth - 005</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img24.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img24.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Earth - 006</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img25.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img25.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Earth - 007</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img26.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img26.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Earth - 008</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+            <!--product section-->
+            <section id="product" class="business bg-grey roomy-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_business">
+                            <div class="col-md-6">
+                                <div class="business_slid">
+                                    <div class="slid_shap bg-grey"></div>
+                                    <div class="business_items text-center">
+                                        <div class="business_item">
+                                            <div class="business_img">
+                                                <img src="assets/images/about-img3.jpg" alt="" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="business_item sm-m-top-50">
+                                    <h2 class="text-uppercase"><strong>Shuttle Ark Magik</strong></h2>
+                                    <ul>
+                                        <li><i class="fa fa-arrow-circle-right"></i> Clean lot</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Good location</li>
+                                        <li><i class="fa  fa-arrow-circle-right"></i> Rare</li>
+                                    </ul>
+                                    <p class="m-top-20">Shuttle Ark Magik</p>
+
+                                    <div class="business_btn">
+                                        <a href="https://www.binance.com/en/nft/my-nfts/magicvipclub-10d62809b0425b4f5ad90" class="btn btn-default m-top-20">Read More</a>
+                                        <a href="https://www.gate.io/nft/collection/12095/Virtual%20Worlds%20NFT" class="btn btn-primary m-top-20">Buy Now</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->
+            <section id="" class="product">
+                <div class="container">
+                    <div class="main_product roomy-80">
+                        <div class="head_title text-center fix">
+
+                            <h2 class="text-uppercase">New Collection - Shuttles Ark Magik</h2>
+
+                        </div>
+
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img1.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img1.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttles Ark Magik - 001</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img2.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img2.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttles Ark Magik - 002</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img3.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img3.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttles Ark Magik - 003</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/work-img4.jpg" alt="" />
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/work-img4.jpg" class="popup-img">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5>Shuttles Ark Magik - 004</h5>
+                                                        <h6>- Graphic Design</h6>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img5.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img5.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttles Ark Magik - 005</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img6.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img6.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttles Ark Magik - 006</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img7.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img7.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttles Ark Magik - 007</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img">
+                                                            <img src="assets/images/work-img8.jpg" alt="" />
+                                                            <div class="port_overlay text-center">
+                                                                <a href="assets/images/work-img8.jpg" class="popup-img">+</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="port_caption m-top-20">
+                                                            <h5>Shuttles Ark Magik - 008</h5>
+                                                            <h6>- Graphic Design</h6>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <section id="Rooms" class="business bg-grey roomy-70">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="main_business">
+                                            <div class="col-md-6">
+                                                <div class="business_slid">
+                                                    <div class="slid_shap bg-grey"></div>
+                                                    <div class="business_items text-center">
+                                                        <div class="business_item">
+                                                            <div class="business_img">
+                                                                <img src="assets/images/about-img2.jpg" alt="" />
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="business_item sm-m-top-50">
+                                                    <h2 class="text-uppercase"><strong>Room</strong></h2>
+                                                    <ul>
+                                                        <li><i class="fa fa-arrow-circle-right"></i> Clean lot</li>
+                                                        <li><i class="fa  fa-arrow-circle-right"></i> Good location</li>
+                                                        <li><i class="fa  fa-arrow-circle-right"></i> Rare</li>
+                                                    </ul>
+                                                    <p class="m-top-20">Rooms</p>
+
+                                                    <div class="business_btn">
+                                                        <a href="https://www.binance.com/en/nft/my-nfts/magicvipclub-10d62809b0425b4f5ad90" class="btn btn-default m-top-20">Read More</a>
+                                                        <a href="https://www.gate.io/nft/collection/12095/Virtual%20Worlds%20NFT" class="btn btn-primary m-top-20">Buy Now</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section><!-- End off Business section -->
+
+
+                            <!--product section-->
+                            <section id="product" class="product">
+                                <div class="container">
+                                    <div class="main_product roomy-80">
+                                        <div class="head_title text-center fix">
+                                            <h2 class="text-uppercase">New Collection - Rooms</h2>
+
+                                        </div>
+
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-sm-3">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img">
+                                                                        <img src="assets/images/work-img9.jpg" alt="" />
+                                                                        <div class="port_overlay text-center">
+                                                                            <a href="assets/images/work-img9.jpg" class="popup-img">+</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="port_caption m-top-20">
+                                                                        <h5>Shuttles Ark Magik - 001 <br> Room - 0001</h5>
+                                                                        <h6>- Graphic Design</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img">
+                                                                        <img src="assets/images/work-img10.jpg" alt="" />
+                                                                        <div class="port_overlay text-center">
+                                                                            <a href="assets/images/work-img10.jpg" class="popup-img">+</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="port_caption m-top-20">
+                                                                        <h5>Shuttles Ark Magik- 001 <br> Room - 0002</h5>
+                                                                        <h6>- Graphic Design</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img">
+                                                                        <img src="assets/images/work-img11.jpg" alt="" />
+                                                                        <div class="port_overlay text-center">
+                                                                            <a href="assets/images/work-img11.jpg" class="popup-img">+</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="port_caption m-top-20">
+                                                                        <h5>Shuttles Ark Magik - 001 <br> Room - 0003</h5>
+                                                                        <h6>- Graphic Design</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img">
+                                                                        <img src="assets/images/work-img12.jpg" alt="" />
+                                                                        <div class="port_overlay text-center">
+                                                                            <a href="assets/images/work-img12.jpg" class="popup-img">+</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="port_caption m-top-20">
+                                                                        <h5>Shuttles Ark Magik - 001 <br> Room - 0004</h5>
+                                                                        <h6>- Graphic Design</h6>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-sm-3">
+                                                                    <div class="port_item xs-m-top-30">
+                                                                        <div class="port_img">
+                                                                            <img src="assets/images/work-img13.jpg" alt="" />
+                                                                            <div class="port_overlay text-center">
+                                                                                <a href="assets/images/work-img13.jpg" class="popup-img">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="port_caption m-top-20">
+                                                                            <h5>Shuttles Ark Magik - 001 <br> Room - 0005</h5>
+                                                                            <h6>- Graphic Design</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <div class="port_item xs-m-top-30">
+                                                                        <div class="port_img">
+                                                                            <img src="assets/images/work-img14.jpg" alt="" />
+                                                                            <div class="port_overlay text-center">
+                                                                                <a href="assets/images/work-img14.jpg" class="popup-img">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="port_caption m-top-20">
+                                                                            <h5>Shuttles Ark Magik - 001 <br> Room - 0006</h5>
+                                                                            <h6>- Graphic Design</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <div class="port_item xs-m-top-30">
+                                                                        <div class="port_img">
+                                                                            <img src="assets/images/work-img15.jpg" alt="" />
+                                                                            <div class="port_overlay text-center">
+                                                                                <a href="assets/images/work-img15.jpg" class="popup-img">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="port_caption m-top-20">
+                                                                            <h5>Shuttles Ark Magik - 001 <br> Room - 0007</h5>
+                                                                            <h6>- Graphic Design</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                    <div class="port_item xs-m-top-30">
+                                                                        <div class="port_img">
+                                                                            <img src="assets/images/work-img16.jpg" alt="" />
+                                                                            <div class="port_overlay text-center">
+                                                                                <a href="assets/images/work-img16.jpg" class="popup-img">+</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="port_caption m-top-20">
+                                                                            <h5>Shuttles Ark Magik - 001 <br> Room - 0008</h5>
+                                                                            <h6>- Graphic Design</h6>
+                                                                        </div>
+
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Product section -->
+
+
+
+
+
+
+            <div class="whitepaper"> 
+            <h1 style="text-align:center">Whitepaper</h1>
+            <h3 style="text-align:center">1. Q1 | 2022 Creation of NFT project accounts OpenSea, Rarible</h3>
+            <h3 style="text-align:center">2. Q2 | 2022 Creation of social networks for the project </h3>
+            <h3 style="text-align:center">3. Q3 | 2022 Airdrop NFT on the ETH network Polygon MATIC Flow </h3>
+            <h3 style="text-align:center">4. Q4 | 2022 Creation of projectaccounts on all platforms of the world Binance, Gate.io, OKX, GetGems, Float</h3>
+            <h3 style="text-align:center">5. Q4 | 2023 NFT\Tokens Airdrop on theTON\BNB network Listing on DEX exchange 6 new games </h3>
+            <h3 style="text-align:center">6. Q3 | 2023 Creation of two coins on theTON network Listing on Tondoge botListing on DEX exchanges Staking </h3>
+            <h3 style="text-align:center">7. Q2 | 2023 Creation of two coins onthe BNB network Token Airdrop Listing on PancakeSwap Website creation</h3>
+            <h3 style="text-align:center">8. Q1 | 2023 Airdrop NFT in networks BNB, Flow, ETH, Polygon, MATIC, GT</h3>
+            <h3 style="text-align:center">9. Q1 | 2024 Listing on xRocket bot, xJetSwapBot App creation ICO for early investors NFT Airdrop Lottery ticket drawing</h3>
+            <h3 style="text-align:center">10. Q2 | 2024 Realise of VWS Game </h3>
+            <h3 style="text-align:center">11.Q3 | 2024 Listing on MEXC, BingX, Gate, Bitmart, Ston.fi 2 new games mini-games </h3>
+            <h3 style="text-align:center">12. Q4 | 2024 Create our own Domain zone Alpha version TON/BNB bridge App developing Updating the roadmap </h3>
+        </div>
+
+
+
+
+
+
+
+            <footer id="contact" class="footer action-lage bg-black p-top-80">
+                <!--<div class="action-lage"></div>-->
+                <div class="container">
+                    <div class="row">
+                        <div class="widget_area">
+                            <div class="col-md-3">
+
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">Email:</h6>
+                                            <p>magicnftclub@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
+
+
+
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
+                    <div class="col-md-12">
+                        <p class="wow fadeInRight" data-wow-duration="1s">
+                            Made with
+                            <i class="fa fa-heart"></i>
+                            by
+                            <a target="_blank" href="https://bootstrapthemes.co">Magik</a>
+                            2023. All Rights Reserved
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 p-top-20">
+                        <p class="wow fadeInRight" data-wow-duration="1s">
+                            Distributed
+                            <i class="fa fa-heart"></i>
+                            by
+                            <a target="_blank" href="https://themewagon.com/">Magik</a>
+                            2023. All Rights Reserved
+                        </p>
+                    </div>
+
+
+                </div>
+            </footer>
+
+
+
+
+        </div>
+
+        <!-- JS includes -->
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/css/slick/slick.js"></script>
+        <script src="assets/css/slick/slick.min.js"></script>
+        <script src="assets/js/jquery.collapse.js"></script>
+        <script src="assets/js/bootsnav.js"></script>
+
+
+
+     
+    </body>
+</html>
